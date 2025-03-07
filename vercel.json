@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/property-management",
-      "destination": "https://property-management-rho-lake.vercel.app"
+      "destination": "https://erichsimon.com"
     },
     {
       "source": "/property-management/:path*",
