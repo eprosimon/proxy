@@ -5,8 +5,8 @@
       "destination": "https://erichsimon.com/blog/"
     },
     {
-      "source": "/blog/test/:path*",
-      "destination": "https://erichsimon.com//blog/:path*"
+      "source": "/blog/:path*",
+      "destination": "https://erichsimon.com/blog/:path*"
     }
   ],
   "headers": [
