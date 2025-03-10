@@ -5,13 +5,13 @@
       "destination": "https://erichsimon.com/blog/"
     },
     {
-      "source": "/test/:path*",
-      "destination": "https://erichsimon.com/:path*"
+      "source": "/blog/test/:path*",
+      "destination": "https://erichsimon.com//blog/:path*"
     }
   ],
   "headers": [
     {
-      "source": "/property-management/(.*)",
+      "source": "/blog/(.*)",
       "headers": [
         {
           "key": "x-vercel-enable-rewrite-caching",
